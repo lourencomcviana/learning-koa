@@ -1,0 +1,38 @@
+{
+  "name": "learning-koa",
+  "version": "0.1.0",
+  "description": "app to learn koa.js using mherman.org/blog/2017/08/23/building-a-restful-api-with-koa-and-postgres/",
+  "main": "./build/app.js",
+  "scripts": {
+    "start": "node ./build/app.js",
+    "test": "./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lourencomcviana/learning-koa.git"
+  },
+  "author": "lourenço viana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lourencomcviana/learning-koa/issues"
+  },
+  "homepage": "https://github.com/lourencomcviana/learning-koa#readme",
+  "devDependencies": {
+    "@types/knex": "^0.14.15",
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.30",
+    "chai": "4.1.1",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "mocha": "3.5.0",
+    "nodemon": "^1.18.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "knex": "^0.13.0",
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "pg": "^7.1.2"
+  }
+}
