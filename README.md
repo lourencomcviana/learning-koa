@@ -1,6 +1,7 @@
 # learning-koa
 testing and learning koa.js using 
-- mega tutorial with koa,postgre,Passport,tests,Knex.js,simon,ect: mherman.org/blog/2017/08/23/building-a-restful-api-with-koa-and-postgres/
+- mega tutorial with koa,postgre,Passport,tests,Knex.js,simon,ect: 
+  - mherman.org/blog/2017/08/23/building-a-restful-api-with-koa-and-postgres/
 - run node app as service on linux: https://stackoverflow.com/questions/4018154/how-do-i-run-a-node-js-app-as-a-background-service
 - creating and using postgre on docker: 
   - https://medium.com/@lvthillo/connect-from-local-machine-to-postgresql-docker-container-f785f00461a7
