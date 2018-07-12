@@ -1,6 +1,9 @@
 "use strict";
-const Router = require('koa-router');
-const router = new Router();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+const koa_router_1 = __importDefault(require("koa-router"));
+const router = new koa_router_1.default();
 router.get('/', async (ctx) => {
     ctx.body = {
         status: 'success',

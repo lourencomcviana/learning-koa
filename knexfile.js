@@ -23,5 +23,4 @@ module.exports = {
       directory: path.join(BASE_PATH, 'seeds')
     }
   }
-
 };
