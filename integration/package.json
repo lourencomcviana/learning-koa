@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "learning-koa",
   "version": "0.1.0",
@@ -26,3 +27,32 @@
   },
   "dependencies": {}
 }
+=======
+{
+  "name": "learning-koa",
+  "version": "0.1.0",
+  "description": "sub test app",
+  "main": "./bin/app.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lourencomcviana/learning-koa.git"
+  },
+  "author": "lourenço viana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lourencomcviana/learning-koa/issues"
+  },
+  "homepage": "https://github.com/lourencomcviana/learning-koa#readme",
+  "devDependencies": {
+    "chai": "4.1.1",
+    "chai-http": "^3.0.0",
+    "mocha": "3.5.0",
+    "request": "^2.87.0",
+    "sinon": "^6.1.1"
+  },
+  "dependencies": {}
+}
+>>>>>>> 7db08469de2a0a3eafd505ad08a8fa133032e306
